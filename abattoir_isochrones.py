@@ -48,4 +48,4 @@ folium.map.Marker(
 ).add_to(map1)
 
 map1
-map1.save(outfile='map1.html')
+map1.save(outfile='index.html')
