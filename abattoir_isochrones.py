@@ -8,7 +8,7 @@ from openrouteservice import client
 api_key = '5b3ce3597851110001cf6248316547730c13449498f0ac6c7b88ba62' #Provide your personal API key
 clnt = client.Client(key=api_key) 
 # Set up folium map
-map1 = folium.Map(tiles='Stamen Terrain', location=([50.575587549617886, -121.83890221698378]), zoom_start=6)
+map1 = folium.Map(tiles='Stamen Terrain', location=([50.575587549617886, -121.83890221698378]), zoom_start=7)
 
 # Set up the apartment dictionary with real coordinates
 abattoir_dict = {'XH Buffalo Ranch': {'location': [51.39557020423438, -121.20192825105231]},
@@ -47,5 +47,5 @@ folium.map.Marker(
     popup='Spray Creek Ranch',
 ).add_to(map1)
 
-map1
+#map1
 map1.save(outfile='index.html')
