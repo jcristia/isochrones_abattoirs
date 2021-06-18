@@ -1,6 +1,9 @@
 # following this example:
 # https://openrouteservice.org/example-apartment-search-with-ors/
 
+# it could be worth also checking out this completely opensource option:
+# https://towardsdatascience.com/how-to-calculate-travel-time-for-any-location-in-the-world-56ce639511f
+
 import folium
 from openrouteservice import client
 
